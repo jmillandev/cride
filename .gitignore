@@ -53,6 +53,10 @@ coverage.xml
 # Django stuff:
 staticfiles/
 
+# Migrations
+**/migrations/*
+!**/migrations/__init__.py
+
 # Sphinx documentation
 docs/_build/
 
@@ -69,6 +73,7 @@ celerybeat-schedule
 .venv
 venv/
 ENV/
+.devcontainer/
 
 # Rope project settings
 .ropeproject
@@ -277,3 +282,4 @@ cride/media/
 .env
 .envs/*
 !.envs/.local/
+
