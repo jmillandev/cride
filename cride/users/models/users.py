@@ -4,7 +4,7 @@ from django.db import models
 from django.contrib.auth.models import AbstractUser
 
 from cride.utils.models import CRideModel
-from .validators import phone_regex
+from cride.users.validators import phone_regex
 
 class User(CRideModel, AbstractUser):
     """User model
