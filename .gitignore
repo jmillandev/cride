@@ -74,6 +74,7 @@ celerybeat-schedule
 venv/
 ENV/
 .devcontainer/
+.vscode/
 
 # Rope project settings
 .ropeproject
