@@ -8,7 +8,7 @@ psycopg2==2.7.4 --no-binary psycopg2
 django==2.2.13
 
 #DRF
-djangorestframework==3.11.0
+djangorestframework==3.11.2
 
 #Authentications
 djangorestframework-jwt==1.11.0
